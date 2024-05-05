@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+        padding: 0;
+        background-image: url('images/fondo.png');
+        background-size: contain;
+        background-position: center;
+        font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    /* Ancho máximo del contenido */
+    margin: 0 auto;
+    /* Centrar el contenedor */
+    padding: 20px;
+    /* Espacio interior */
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+header {
+    background-color: #faf9dd;
+    /* Color de fondo del encabezado */
+    color: #000;
+    /* Color de texto del encabezado */
+    padding: 20px ;
+    
+    /* Espacio interior vertical */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Eliminar los puntos de la lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    /* Color de enlaces en el encabezado */
+    text-decoration: none;
+    /* Quitar subrayado de los enlaces */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Subrayar enlaces al pasar el mouse */
+}
+
+.section {
+    padding: 20px 0;
+    /* Espaciado interno de las secciones */
+}
+
+footer {
+    background-color: #faf9dd;
+    /* Color de fondo del pie de página */
+    color: #000;
+    /* Color de texto del pie de página */
+    text-align: center;
+    /* Alinear el texto al centro */
+    padding: 10px 0;
+    /* Espacio interior vertical */
+}
+
+.content {
+    display: flex;
+    /* Usar flexbox */
+    align-items: center;
+    /* Alinear elementos verticalmente */
+
+            background-color: rgba(255, 255, 255, 0.9);
+            /* Fondo blanco semi-transparente */
+            max-width: 800px;
+            /* Ancho máximo del contenido */
+            margin: 50px auto;
+            /* Centrar el contenedor */
+            padding: 20px;
+            /* Espacio interior */
+            border-radius: 10px;
+            /* Bordes redondeados */
+            overflow: hidden;
+            /* Ocultar cualquier desbordamiento */
+        
+}
+
+.content img {
+    margin-right: 20px;
+    /* Espacio entre la imagen y el texto */
+    max-width: 50%;
+    /* Ajustar el ancho máximo de la imagen */
+}
+
+.content .text {
+    flex: 1;
+    /* El texto ocupará el espacio restante */
+}
+
+
+.container2 {
+        max-width: 800px;
+            /* Ancho máximo del contenido */
+            margin: 0 auto;
+            /* Centrar el contenedor */
+            padding: 20px;
+            /* Espacio interior */
+}
